@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+<body>
+    <div class="container">
+        <form action="/action_page.php" class="login-form">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="name">User Name</label>
+                <input type="text" id="name" placeholder="User Name">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" placeholder="Mobile number">
+            </div>
+            <div class="form-group">
+                <label for="fav-languages">Favorite Languages:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="html" name="fav_language" value="HTML">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" id="css" name="fav_language" value="CSS">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="option">Select Option:</label>
+                <select id="option">
+                    <option value="option0">---Select---</option>
+                    <option value="option1">Python</option>
+                    <option value="option2">Java</option>
+                    <option value="option3">C</option>
+                    <option value="option4">C++</option>
+                </select>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
